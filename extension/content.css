@@ -20,3 +20,152 @@
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 }
+
+/*Dark mode*/
+/*https://github.com/sindresorhus/anatine/blob/master/dark-mode.css*/
+
+/* improved text rendering */
+ * {
+	-webkit-font-smoothing: antialiased !important;
+}
+
+/* background colours */
+body,
+/* nav bar */
+ nav,
+/* input box */
+ ._2qaFoaOS,
+/* spacers in trending page */
+ ._3o5W64B2,
+/* DM background */
+ ._2fklWv1X,
+/* suggested people */
+ .mqmxGGg7,
+/* comment section */
+ ._1R-qbptt {
+	background: #192633 !important;
+}
+
+/* search lists */
+ ._10lTeTjh {
+	background: #2f3b47 !important;
+}
+
+/* navbar border */
+ ._3vk57kRX,
+/* input box border */
+ ._2qaFoaOS,
+/* compose tweet border */
+ ._-99S9zHC,
+/* suggested people */
+ ._3npsCUvN,
+/* spacer border top */
+ ._2-x3RLq2,
+/* retweet count borders */
+ ._1N8xRqVj,
+ ._3h5wA3M_,
+/* heading border */
+ ._3FIA3A1x,
+/* DM message border */
+ ._2ACoFZzr,
+/* DM compuse top border */
+ ._3so04aC4,
+/* element seperators */
+ ._2LwEUgbO,
+ ._3tixQkQf,
+ .KpW0EccK,
+ .c2-JCY2V ._222QxFjc ._1BmZ-Yeo {
+	border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* base font colour */
+body,
+ nav,
+/* embedded media title */
+ ._3yLY5rI9,
+/* retweeted tweet body */
+ ._3EzK97M9 > span {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+/* user "real name" */
+ ._38kXZCmY,
+/* follower counts */
+ ._3YZtKRZQ {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+/* Heading text */
+ ._2qaFoaOS,
+ h1,
+ h2,
+/* input text */
+ textarea {
+	color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* buttons */
+ ._2f-qOhRh {
+	background: transparent;
+	color: rgb(255, 255, 255) !important;
+}
+
+/* reply markers */
+ ._1jtqWh_6 {
+	background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* embedded media border colour */
+ ._1K1FePxK,
+ .zLkZvTFz,
+ ._1unhGaVg {
+	border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* poll colour */
+ ._1BBfOLht {
+	background-color: #0084ff !important;
+}
+
+/* DM conversation received text */
+ ._1xAkv3Rq._3tixQkQf {
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* DM send message textfield */
+ ._3gsfT3lC .JFlBIqN4,
+/* DM search box */
+ .JFlBIqN4 {
+	background: rgba(255, 255, 255, 0.1) !important;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+/* DM conversation received bubble */
+ ._1xAkv3Rq .Y5C1ukbR {
+	background-color: #303B47 !important;
+}
+
+/* DM conversation received hide white triangle */
+ ._37woGctS:before {
+	visibility: hidden;
+}
+
+/* DM Send button */
+ ._1LQ_VFHl {
+	border-color: #0084ff;
+}
+
+/* Trending item title */
+ ._2WpoiLFQ {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/* new notification highlight in the Notifications tab */
+ ._1O-UMNIz {
+	background-color: rgba(255, 255, 255, 0.04) !important
+}
+
+/* Notification tab activity indicator */
+ ._3CC9EHgm {
+	box-shadow: 0 0 0 .14rem #192633 !important;
+}
